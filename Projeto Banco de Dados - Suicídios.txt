@@ -1,0 +1,20 @@
+ Projeto Banco de Dados - Suicídios (2010-2019)
+Sobre o projeto
+Este projeto analisa dados de suicídios no Brasil entre 2010 e 2019 usando SQL.
+
+Arquivos
+- script_sql.sql → cria banco, tabelas, inserts e views
+- README.md → explicação do projeto
+
+Como executar
+
+1. Abra o MySQL Workbench ou phpMyAdmin
+2. Execute o arquivo script_sql.sql inteiro
+3. Aguarde criar banco e tabelas
+4. Rode as consultas das views
+ Objetivo
+Criar análises sobre:
+- estados com mais casos
+- idade média
+- escolaridade
+- estado civil
