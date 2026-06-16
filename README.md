@@ -1,31 +1,25 @@
-Projeto Banco de Dados - Suicídios (2010-2019)
+ projeto banco de dados - suicídios
 
- Descrição
-Projeto desenvolvido na disciplina de Banco de Dados com base em dados do DATASUS.
+trabalho desenvolvido na disciplina de banco de dados utilizando informações baseadas em dados do datasus.
 
- Objetivo
-Analisar dados de suicídios no Brasil entre os anos de 2010 e 2019, identificando padrões por estado, idade, escolaridade e estado civil.
+o objetivo do projeto foi criar um banco de dados para armazenar e consultar registros de suicídios ocorridos entre 2010 e 2019, permitindo análises por estado, idade, escolaridade e estado civil.
 
- Arquivos do projeto
+arquivo
+banco_suicidios_final.sql
 
-- `script_sql.sql` → criação do banco, tabelas, inserts e views
+execução
 
+abrir o mysql workbench ou phpmyadmin;
+executar o arquivo sql;
+verificar se o banco foi criado;
+executar os selects que estão no final do script.
 
- Como executar o projeto
+views
 
-1. Abrir o MySQL Workbench ou phpMyAdmin  
-2. Executar o arquivo `script_sql.sql` completo  
-3. Conferir se o banco foi criado corretamente  
-4. Executar as views criadas no script  
-
- Views criadas
-
-- Total de casos por estado  
-- Média de idade dos casos  
-- Casos por escolaridade  
-- Casos por estado civil  
-- Relatório consolidado com múltiplas dimensões  
+vw_lista_casos
+vw_qtd_estado
+vw_media_idade
+vw_por_escolaridade
+vw_por_estado_civil
 
 
-
- 
